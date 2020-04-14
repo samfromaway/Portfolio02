@@ -1,0 +1,65 @@
+.smallcards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.smallcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  box-shadow: var(--box-shadow01);
+  border-radius: var(--main-border-radius);
+  margin: 0.625rem;
+  overflow: hidden;
+  width: 140px;
+}
+
+.smallcard img {
+  width: 100%;
+  border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
+  object-fit: none;
+  position: relative;
+  cursor: pointer;
+  height: 80px;
+  object-fit: cover;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.smallcard img:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.smallcard h3 {
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin-bottom: auto;
+}
+
+.smallcard button {
+  margin: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .smallcard {
+    width: 120px;
+  }
+
+  .smallcard a {
+    width: 100px;
+    font-size: 0.7rem;
+  }
+
+  .smallcards h3 {
+    font-size: 1rem;
+  }
+
+  .smallcard button {
+    width: 100px;
+    padding: 0.3em;
+  }
+}

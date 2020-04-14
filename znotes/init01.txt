@@ -1,0 +1,7 @@
+npm install
+
+GULP
+npm install gulp-cli -g
+npm install gulp -D
+
+npm install --save-dev gulp  gulp-sourcemaps gulp-concat gulp-terser 

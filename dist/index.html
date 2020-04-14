@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./src/images/favicon.png"
+    />
+    <link rel="apple-touch-icon" href="./src/images/favicon.png" />
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <section>
+        <nav>
+          <div class="logo">
+            <a href="index"> <img alt="Logo" src="./images/logo.png" /></a>
+            <p id="logo-desc">Portfolio</p>
+          </div>
+          <ul class="nav-links">
+            <li><a class="nav-link" onclick="scrollAboutMe()">About Me</a></li>
+            <li><a class="nav-link" onclick="scrollWork()">My Work</a></li>
+            <li><a class="nav-link" onclick="scrollContact()">Contact</a></li>
+          </ul>
+          <div class="burger-wrapper">
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="hero01">
+        <img
+          class="hero-illustration"
+          src="./images/efficient01.png"
+          alt="Efficient Marketing"
+        />
+
+        <div class="content-section1">
+          <h1 id="title01">Efficient Webdesign</h1>
+          <h2 id="title02">Focus On Sales</h2>
+          <img
+            class="hero-illustration-mobile"
+            src="./images/efficient01.png"
+            alt="Efficient Marketing"
+          />
+        </div>
+
+        <div class="scroll-arrow pulse01">
+          <i
+            onclick="scrollNext01()"
+            class="fa fa-angle-down fa-2x animated"
+          ></i>
+        </div>
+      </section>
+
+      <section id="aboutMe" class="section02">
+        <h2 id="title06" class="title03">About Me</h2>
+
+        <div class="cards01">
+          <div class="card01 appearanim01 reverse02 cardsglow01">
+            <i class="fas fa-route"></i>
+            <h3>My Travels</h3>
+            <p>
+              I grew up in Switzerland and live full time in Colombia since
+              2017.
+            </p>
+          </div>
+
+          <div class="card01 fadeinanim01 cardsglow01">
+            <i class="fas fa-briefcase"></i>
+            <h3>My Career</h3>
+            <p>
+              I graduated as a mechanic/engineer, worked as a "Product-Manager"
+              and currently have my own online business.
+            </p>
+          </div>
+
+          <div class="card01 appearanim01 cardsglow01">
+            <i class="fas fa-feather-alt"></i>
+            <h3>My Passion</h3>
+            <p>
+              I love to combine design and functionality with a long-term
+              approach on all my projects. Building new things with that in mind
+              is my passion.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--  <section id="howIWork" class="section02">
+                <h2 class="title03">How I Work</h2>
+                <p>Hi this is a text</p>
+        
+                <div class="iconcontents01">
+                  <div class="iconcontent01">
+                    <div>
+                      <i class="fas fa-object-group"></i>
+                      <h3>Simplistic Design</h3>
+                      <p>This is a text</p>
+                    </div>
+        
+                    <div>
+                      <i class="fas fa-microscope"></i>
+                      <h3>Attention To Detail</h3>
+                      <p>This is a text</p>
+                    </div>
+                  </div>
+        
+                  <div class="iconcontent01">
+                    <div>
+                      <i class="fas fa-object-group"></i>
+                      <h3>Simplistic Design</h3>
+                      <p>This is a text</p>
+                    </div>
+        
+                    <div>
+                      <i class="fas fa-microscope"></i>
+                      <h3>Attention To Detail</h3>
+                      <p>This is a text</p>
+                    </div>
+                  </div>
+                </div>
+              </section>  -->
+
+      <section id="mainProjects" class="section02">
+        <h2 id="title03" class="title03">My Work</h2>
+
+        <div class="imgcontentwrapper01">
+          <div class="description1">
+            <h3>Real Estate Website</h3>
+            <p>
+              This is a website with a real estate listing and a service
+              directory. The main focus is that sales leads are generated
+              efficently.
+            </p>
+          </div>
+
+          <div
+            class="description1-img-wrapper hoveranim01p appearanim01 imgglow01"
+          >
+            <a href="https://www.how-to-medellin.com/" target="_blank"
+              ><img
+                class="description1-img hoveranim01c"
+                alt="How To Medellin"
+                src="./images/howtomedellin01.png"
+            /></a>
+          </div>
+        </div>
+
+        <div class="imgcontentwrapper01 wrapreverse01">
+          <div class="description1">
+            <h3>Engineer Website</h3>
+            <p>
+              This website is a knowledge base for Engineers in German speaking
+              countries and containes more than 40 pages.
+            </p>
+          </div>
+          <div
+            id="productimg02"
+            class="description1-img-wrapper reverse02 hoveranim01p appearanim01 imgglow01"
+          >
+            <a
+              ><img
+                class="description1-img hoveranim01c"
+                alt="Engineering Website"
+                src="./images/pneumatikinfo01.png"
+            /></a>
+          </div>
+        </div>
+
+        <div class="imgcontentwrapper01">
+          <div class="description1">
+            <h3>Product Portfolio</h3>
+            <p>
+              This website lists industrial products. It was important to have a
+              clean and modern design to gain the trust of new clients.
+            </p>
+          </div>
+          <div
+            id="productimg03"
+            class="description1-img-wrapper hoveranim01p appearanim01 imgglow01"
+          >
+            <a
+              ><img
+                class="description1-img hoveranim01c"
+                alt="Product Portfolio"
+                src="./images/fluidtechnik01.png"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="chooseAField" class="section02">
+        <h2 id="title04" class="title03">More Projects</h2>
+        <div class="title04-wrapper">
+          <h4 class="title04 pulse01">Choose A Field</h4>
+        </div>
+
+        <div id="navCards" class="smallcards imgglow01">
+          <div id="card21" class="smallcard">
+            <img id="card-image01" alt="Web-Dev" src="./images/Web-Dev01.jpg" />
+            <h3 class="darktext">Web Development</h3>
+            <button id="btnchooseCategory01" class="button">Choose</button>
+          </div>
+
+          <div id="card22" class="smallcard">
+            <img
+              id="card-image02"
+              alt="Online Marketing"
+              src="./images/business-marketing.jpg"
+            />
+            <h3 class="darktext">Online Marketing</h3>
+            <button id="btnchooseCategory02" class="button">Choose</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="section04" class="section02 appearanim02">
+        <h2 id="title07" class="title03">Top 3 Projects</h2>
+
+        <div id="projectData" class="cards02"></div>
+      </section>
+
+      <section id="contact" class="section02" style="padding-bottom: 30px;">
+        <h2 id="title05" class="title03">Contact</h2>
+        <div class="imgcontentwrapper02">
+          <div class="description2-img-wrapper">
+            <img class="description2-img" alt="Sam" src="./images/Samuel.jpg" />
+            <div class="description2">
+              <p>
+                Samuel Roellin<br />
+                contact@dev-world.info<br />
+                +57 312 789 30 89
+              </p>
+            </div>
+          </div>
+
+          <div class="wrap-contact cardsglow01">
+            <h2>Contact</h2>
+
+            <form id="myform" class="contact-form" netlify>
+              <div class="wrap-input">
+                <span class="label-input">Name *</span>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <div class="wrap-input">
+                <span class="label-input">Email *</span>
+                <input
+                  class="input"
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="wrap-input">
+                <span class="label-input">Message *</span>
+                <textarea
+                  class="input"
+                  name="message"
+                  placeholder="Your message here..."
+                ></textarea>
+              </div>
+
+              <button class="button contact-btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- The Modals -->
+
+    <div id="modal02" class="modal">
+      <div class="modal-content">
+        <span id="close02" class="close">&times;</span>
+        <div class="video01">
+          <video controls>
+            <source src="./videos/Pneumatikinfo.mp4" type="video/mp4" />
+            Your browser does not support the video.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal03" class="modal">
+      <div class="modal-content">
+        <span id="close03" class="close">&times;</span>
+        <div class="video01">
+          <video controls>
+            <source src="./videos/Fluid.mp4" type="video/mp4" />
+            Your browser does not support the video.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>

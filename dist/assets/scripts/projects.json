@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "How To Medellin",
+      "desc": "This is a project which includes a database fetched directory and a fully functional real estate listing site.",
+      "img": "images/howtomedellin01.png",
+      "icn": "images/Icons02-HTM.png",
+      "link": "https://www.how-to-medellin.com/",
+      "category": "webDesign"
+    },
+    {
+      "id": 2,
+      "title": "This Porfolio",
+      "desc": "This portfolio is entirely made with HTML5, CSS3 and Javascript. See more on GitHub.",
+      "img": "images/portfolio01.png",
+      "icn": "images/Icons02-Portfolio.png",
+      "link": "https://github.com/samfromaway/portfolio02",
+      "category": "webDesign"
+    },
+    {
+      "id": 3,
+      "title": "How To Expat",
+      "desc": "This projects is for a business that needs a website which is quick to build and with fast loading times.",
+      "img": "images/how-to-expat01.png",
+      "icn": "images/Icons02-HTE.png",
+      "link": "https://www.how-to-expat.com/",
+      "category": "webDesign"
+    },
+    {
+      "id": 4,
+      "title": "How To Expat",
+      "desc": "Different marketing sources were used in this business to generate a turnover of more than $30k in the first 12 months.",
+      "img": "images/how-to-expat01.png",
+      "icn": "images/Icons02-HTE-S.png",
+      "link": "https://www.how-to-expat.com/",
+      "category": "marketing"
+    },
+    {
+      "id": 5,
+      "title": "BIBUS",
+      "desc": "Content writing and online marketing was a crucial part of this business marketing strategy to generate leads.",
+      "img": "images/bibus01.png",
+      "icn": "images/icons02-BIBUS.png",
+      "link": "https://www.bibus.ch/",
+      "category": "marketing"
+    },
+    {
+      "id": 6,
+      "title": "Silverback Blog",
+      "desc": "In the first year, this blog reached more than 30k sessions only with SEO (no ppc).",
+      "img": "images/traveling-silverback01.png",
+      "icn": "images/Icons02-Silverback.png",
+      "link": "blog01.html",
+      "category": "marketing"
+    },
+    {
+      "id": 7,
+      "title": "Product Portfolio",
+      "desc": "This website lists industrial products. It was important to have a clean and modern design to gain the trust of new clients.",
+      "img": "images/fluidtechnik01.png",
+      "icn": "images/Icons02-HTM.png",
+      "link": "blog01.html",
+      "category": "webDesign"
+    },
+    {
+      "id": 7,
+      "title": "Engineer Website",
+      "desc": "This website is a knowledge base for Engineers in German speaking countries and containes more than 40 pages.",
+      "img": "images/pneumatikinfo01.png",
+      "icn": "images/Icons02-HTM.png",
+      "link": "blog01.html",
+      "category": "webDesign"
+    }
+  ]
+}

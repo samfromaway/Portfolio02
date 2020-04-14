@@ -1,0 +1,27 @@
+.iconcontents01 {
+  text-align: center;
+}
+
+.iconcontent01 {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.iconcontent01 div {
+  width: 50%;
+  border-radius: 8px;
+  margin: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.iconcontent01 p,
+.iconcontent01 h3 {
+  padding: 0.3rem;
+  color: white;
+}
+
+.iconcontent01 i {
+  color: white;
+}

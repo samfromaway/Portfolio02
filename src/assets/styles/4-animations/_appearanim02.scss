@@ -1,0 +1,8 @@
+.appearanim02 {
+  display: none;
+}
+
+.appearanim02.appear {
+  display: flex;
+  flex-direction: column;
+}

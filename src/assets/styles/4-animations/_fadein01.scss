@@ -1,0 +1,8 @@
+.fadeinanim01 {
+  transition: opacity 500ms ease-in;
+  opacity: 0;
+}
+
+.fadeinanim01.appear {
+  opacity: 1;
+}

@@ -1,0 +1,50 @@
+footer {
+  background-color: black;
+}
+
+footer section {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-img-footer {
+  flex: 1;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer-menu {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+  flex: 10;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  text-align: left;
+  padding: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+footer ul li a {
+  color: white;
+}
+
+.section-4 {
+  padding: 3em;
+  text-align: center;
+  position: relative;
+}

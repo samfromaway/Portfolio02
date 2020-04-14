@@ -1,0 +1,40 @@
+.cards01 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.8rem;
+}
+
+.card01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  box-shadow: var(--box-shadow01);
+  border-radius: var(--main-border-radius);
+  margin: 0.625rem;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.card01 img {
+  width: 100%;
+  height: 120px;
+  border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
+  object-fit: none;
+  position: relative;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card01 img:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card01 p {
+  margin-bottom: auto;
+  text-align: left;
+}

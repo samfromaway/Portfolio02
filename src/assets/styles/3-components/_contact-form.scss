@@ -1,0 +1,100 @@
+/* placeholder away*/
+
+textarea:focus,
+input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/*---------------------------------------------*/
+
+.wrap-contact {
+  max-width: 400px;
+  border-radius: var(--main-border-radius);
+  padding: 1.2rem;
+  margin: 1.5rem;
+}
+
+.wrap-contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*------------------------------------------------------------------
+  [ Input ]*/
+
+.wrap-input {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.label-input {
+  padding-left: 10px;
+  color: var(--textbright);
+  font-size: 0.8rem;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 5px;
+  color: #686868;
+  line-height: 1.2;
+  padding: 0 15px;
+  margin-top: 6px;
+}
+
+input.input {
+  height: 40px;
+}
+
+textarea.input {
+  min-height: 162px;
+  max-height: 500px;
+  max-width: 100%;
+  min-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.input:focus {
+  background: rgb(230, 230, 230);
+}
+
+input,
+textarea {
+  border-width: 2px;
+  border-color: transparent;
+}

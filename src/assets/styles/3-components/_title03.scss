@@ -1,0 +1,28 @@
+.title03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--textbright);
+  text-align: center;
+}
+
+.title03::before,
+.title03::after {
+  content: '';
+  background-color: var(--textbright);
+  width: 25px;
+  height: 3px;
+  margin: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .title03 {
+    font-size: 1.7rem;
+  }
+
+  .title03::before,
+  .title03::after {
+    width: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+.hoveranim01p:hover .hoveranim01c {
+  transform: translate(0%, 0%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hoveranim01c {
+  transform: translate(0%, 5%);
+  transition: transform 0.3s ease-in-out;
+}

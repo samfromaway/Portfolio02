@@ -1,0 +1,25 @@
+.imgcontentwrapper02 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.description2 {
+  margin: 1rem;
+}
+
+.description2-img-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 1.5rem;
+}
+
+.description2-img {
+  border-radius: var(--main-border-radius);
+  width: 100%;
+}

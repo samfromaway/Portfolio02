@@ -1,0 +1,13 @@
+.section02 {
+  background: var(--radial-background01);
+  background-attachment: fixed;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  .section02 {
+    padding: 0.6rem;
+  }
+}

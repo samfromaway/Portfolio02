@@ -1,0 +1,32 @@
+.cards02 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card02-img {
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card02 p {
+  text-align: left;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .card02 {
+    width: 80%;
+  }
+}

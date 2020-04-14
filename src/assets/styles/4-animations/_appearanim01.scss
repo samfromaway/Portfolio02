@@ -1,0 +1,14 @@
+.appearanim01 {
+  transform: translateX(50%);
+  transition: transform 400ms ease-in, opacity 400ms ease-in;
+  opacity: 0;
+}
+
+.reverse02 {
+  transform: translateX(-50%);
+}
+
+.appearanim01.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
